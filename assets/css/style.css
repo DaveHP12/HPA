@@ -1,0 +1,110 @@
+body{
+   min-height: 200vh; 
+  /* background-color: #EDEDED !important;*/
+background-color:transparent !important;
+font-family: 'Oswald', sans-serif;
+font-size: medium;
+}
+
+
+
+.material-icons{
+   position: absolute;
+   padding-left: -5px
+}
+
+.logo{
+font-weight: 300px;
+padding-left: 15px;
+}
+
+.fullscreen-bg {
+ 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+
+}
+
+
+
+.transnav {
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    left:0;
+    z-index: 10; 
+    box-shadow: 0 0 3px 3px #1a1a1a;
+    
+  }
+
+
+
+  
+
+ 
+  .navbar-wrapper {height: auto; padding: 0;}
+
+
+
+
+.cards-1 .card-body {
+	padding: 0;
+}
+
+.cards-1 .card-title {
+	margin-bottom: 0.625rem;
+}
+
+
+.portfolio .col
+{
+	margin-bottom: 24px;
+}
+
+.portfolio h5
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.portfolio h6
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.portfolio hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+.portfolio .portfolio-holder
+{
+	clear: both;
+	text-align: center;
+}
+
+.portfolio img
+{
+	width: 33%;
+	display: inline-block;
+	float: left;
+}
+
+
